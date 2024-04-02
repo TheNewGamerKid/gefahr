@@ -1,5 +1,7 @@
 <script lang="ts">
-	Notification.requestPermission();
+	import { inject } from '@vercel/analytics';
+
+	inject();
 </script>
 
 <slot />
