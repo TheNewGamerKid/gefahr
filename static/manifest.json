@@ -2,13 +2,25 @@
   "name": "Gefahr",
   "short_name": "Gefahr",
   "start_url": "/",
+  "scope": "https://gefahr.vercel.app",
   "display": "standalone",
   "description": "A game.",
-  "lang": " en",
+  "lang": "en",
   "dir": "auto",
   "theme_color": "#000000",
   "background_color": "#000000",
   "orientation": "portrait-primary",
+  "id": "c3a8136d-0b40-43ee-9db1-d89c589794a8",
+  "handle_links": "not-preferred",
+  "categories": [
+    "games"
+  ],
+  "launch_handler": {
+    "client_mode": [
+      "navigate-existing",
+      "auto"
+    ]
+  },
   "icons": [
     {
       "src": "https://www.pwabuilder.com/assets/icons/icon_512.png",
@@ -33,10 +45,13 @@
   ],
   "related_applications": [
     {
-      "platform": "windows",
-      "url": "/"
+      "url": "https://gefahr.vercel.app",
+      "platform": "windows"
     }
   ],
+  "edge_side_panel": {
+    "preferred_width": 480
+  },
   "display_override": [
     "window-controls-overlay",
     "standalone",
@@ -48,6 +63,24 @@
       "name": "Gefahr",
       "url": "/",
       "description": "Nothing"
+    }
+  ],
+  "share_target": {
+    "action": "/referral",
+    "method": "GET",
+    "params": {
+      "shared_id": "shared_id",
+      "source": "source"
+    }
+  },
+  "widgets": [
+    {
+      "name": "Gefahr - Leaderboard",
+      "description": "widget to view the current scores amoungst your friends",
+      "template": "gefahr-template",
+      "tag": "gefahr",
+      "update": 86400,
+      "auth": false
     }
   ]
 }
