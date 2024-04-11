@@ -2,7 +2,11 @@ import defaultTheme from 'tailwindcss/defaultTheme';
 import type { Config } from 'tailwindcss';
 
 const config = {
-	plugins: [require('@tailwindcss/typography'), require('daisyui')],
+	plugins: [
+		require('@tailwindcss/typography'),
+		require('tailwindcss-safe-area'),
+		require('daisyui')
+	],
 	content: ['./src/**/*.{html,js,svelte,ts}'],
 	daisyui: {
 		themes: [

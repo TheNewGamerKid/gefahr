@@ -75,7 +75,7 @@
 	<section class="flex flex-wrap gap-3">
 		<a
 			href="/account/user/self/trophies?opento=dedicated"
-			class="flex w-1/4 min-w-20 max-w-32 flex-col items-center gap-2"
+			class="flex w-1/5 min-w-20 max-w-32 flex-col items-center gap-2"
 		>
 			<div class="relative grid aspect-square w-16 place-items-center rounded-sm bg-base-100">
 				<i class="fa-solid fa-trophy fa-xl text-yellow-600" />
@@ -85,15 +85,13 @@
 					50
 				</div>
 			</div>
-			<div
-				class="p w-1/4 min-w-20 max-w-32 truncate text-center text-xs font-semibold tracking-tight"
-			>
+			<div class="p w-full truncate text-center text-xs font-semibold tracking-tight">
 				Dedicated
 			</div>
 		</a>
 		<a
 			href="/account/user/self/trophies?opento=social_butterfly"
-			class="flex w-1/4 min-w-20 max-w-32 flex-col items-center gap-2"
+			class="flex w-1/5 min-w-20 max-w-32 flex-col items-center gap-2"
 		>
 			<div class="relative grid aspect-square w-16 place-items-center rounded-sm bg-base-100">
 				<i class="fa-solid fa-trophy fa-xl text-gray-400" />
@@ -103,15 +101,13 @@
 					10
 				</div>
 			</div>
-			<div
-				class="p w-1/4 min-w-20 max-w-32 truncate text-center text-xs font-semibold tracking-tight"
-			>
+			<div class="p w-full truncate text-center text-xs font-semibold tracking-tight">
 				Social Butterfly
 			</div>
 		</a>
 		<a
 			href="/account/user/self/trophies?opento=get_started"
-			class="flex w-1/4 min-w-20 max-w-32 flex-col items-center gap-2"
+			class="flex w-1/5 min-w-20 max-w-32 flex-col items-center gap-2"
 		>
 			<div class="relative grid aspect-square w-16 place-items-center rounded-sm bg-base-100">
 				<i class="fa-solid fa-trophy fa-xl text-yellow-800" />
@@ -121,9 +117,7 @@
 					5
 				</div>
 			</div>
-			<div
-				class="p w-1/4 min-w-20 max-w-32 truncate text-center text-xs font-semibold tracking-tight"
-			>
+			<div class="p w-full truncate text-center text-xs font-semibold tracking-tight">
 				Get Started
 			</div>
 		</a>

@@ -47,6 +47,7 @@
 		"@supabase/supabase-js": "^2.41.1",
 		"@vercel/analytics": "^1.2.2",
 		"@vercel/speed-insights": "^1.0.10",
-		"localforage": "^1.10.0"
+		"localforage": "^1.10.0",
+		"tailwindcss-safe-area": "^0.5.1"
 	}
 }
