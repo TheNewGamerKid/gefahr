@@ -6,7 +6,7 @@
 	inject();
 </script>
 
-<main class="flex h-screen w-screen flex-col overflow-hidden font-poppins">
+<main class="flex h-[100dvh] w-[100dvw] flex-col overflow-hidden font-poppins">
 	<div class="flex h-full w-full flex-wrap gap-4 overflow-y-auto p-4">
 		<slot />
 	</div>

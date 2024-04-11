@@ -55,7 +55,7 @@
 			<a class="cursor-pointer text-sm underline" href="/account/user/self/friends">More</a>
 		</header>
 		<div class="flex w-full flex-wrap gap-2 rounded-b-sm bg-base-100 p-2 sm:grow">
-			<ProfileCard containerClass="bg-rose-500">
+			<ProfileCard containerClass="bg-rose-500 max-h-16">
 				<a href="/accounts/user/uuid">
 					<span class="max-w-12 truncate text-primary">JJ</span>
 				</a>
@@ -74,7 +74,7 @@
 	</header>
 	<section class="flex flex-wrap gap-3">
 		<a
-			href="/account/user/self/trophies?opento=social_butterfly"
+			href="/account/user/self/trophies?opento=dedicated"
 			class="flex w-1/4 min-w-20 max-w-32 flex-col items-center gap-2"
 		>
 			<div class="relative grid aspect-square w-16 place-items-center rounded-sm bg-base-100">
