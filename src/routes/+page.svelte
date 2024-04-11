@@ -82,21 +82,21 @@
 			</a>
 		</header>
 		<div class="flex w-full gap-3 rounded-b-sm bg-base-100 p-2">
-			<a
-				class="flex h-16 w-1/2 max-w-52 items-center rounded-r-sm bg-neutral"
+			<div class="flex h-16 w-1/2 max-w-52 items-center rounded-r-sm bg-neutral">
+				<!--
 				href="/groups/uuid/join"
-			>
+				-->
 				<div class="flex h-16 w-16 shrink-0 items-center justify-center rounded-sm">
 					<img src={dailyBugle} alt="DB" class="aspect-square h-full rounded-l-sm object-cover" />
 				</div>
 				<div class="px-2">
 					<h3 class="text-sm text-primary">Daily Bugle</h3>
-					<span class="flex flex-wrap gap-1 text-xs text-secondary underline">
+					<div class="flex flex-wrap gap-1 text-xs text-secondary underline">
 						<a href="/tags/search/?query=spiderman">#spiderman</a>
 						<a href="/tags/search/?query=news">#news</a>
-					</span>
+					</div>
 				</div>
-			</a>
+			</div>
 		</div>
 	</section>
 	<section class="col-span-2 flex flex-col sm:col-span-1">
@@ -109,21 +109,19 @@
 			</a>
 		</header>
 		<div class="flex w-full gap-3 rounded-b-sm bg-base-100 p-2">
-			<a
-				class="flex h-16 w-1/2 max-w-52 items-center rounded-r-sm bg-neutral"
-				href="/game/join/uuid"
-			>
+			<div class="flex h-16 w-1/2 max-w-52 items-center rounded-r-sm bg-neutral">
+				<!-- href="/game/join/uuid" -->
 				<div class="flex h-16 w-16 shrink-0 items-center justify-center rounded-sm">
 					<img src={spiderVerse} alt="SV" class="aspect-square h-full rounded-l-sm object-cover" />
 				</div>
 				<div class="px-2">
 					<h3 class="text-sm text-primary">SpiderVerse</h3>
-					<span class="flex flex-wrap gap-1 text-xs text-secondary underline">
+					<div class="flex flex-wrap gap-1 text-xs text-secondary underline">
 						<a href="/tags/search/?query=spiderman">#spiderman</a>
 						<a href="/tags/search/?query=news">#multiverse</a>
-					</span>
+					</div>
 				</div>
-			</a>
+			</div>
 		</div>
 	</section>
 	<section class="col-span-2 flex flex-col sm:col-span-1">
@@ -136,10 +134,8 @@
 			</a>
 		</header>
 		<div class="flex w-full gap-3 rounded-b-sm bg-base-100 p-2">
-			<a
-				class="flex h-16 w-1/2 max-w-52 items-center rounded-r-sm bg-neutral"
-				href="/game/join/uuid"
-			>
+			<div class="flex h-16 w-1/2 max-w-52 items-center rounded-r-sm bg-neutral">
+				<!-- href="/game/join/uuid" -->
 				<div class="flex h-16 w-16 shrink-0 items-center justify-center rounded-sm">
 					<img
 						class="aspect-square h-full rounded-l-sm object-cover"
@@ -149,12 +145,12 @@
 				</div>
 				<div class="w-32 px-2">
 					<h3 class="truncate text-sm text-primary">Spiderman Comics</h3>
-					<span class="flex flex-wrap gap-1 text-xs text-secondary underline">
+					<div class="flex flex-wrap gap-1 text-xs text-secondary underline">
 						<a href="/tags/search/?query=spiderman">#spiderman</a>
 						<a href="/tags/search/?query=retro">#retro</a>
-					</span>
+					</div>
 				</div>
-			</a>
+			</div>
 		</div>
 	</section>
 </div>
