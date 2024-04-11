@@ -5,3 +5,9 @@ import localforage from 'localforage';
 export const valueStore = localforage.createInstance({
 	name: 'valueStore'
 });
+
+export const parseForTagQuery = (tag: string) => {
+	const noHashtags = tag.replace('#', '');
+
+	return noHashtags.toLocaleLowerCase();
+};

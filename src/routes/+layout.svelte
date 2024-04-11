@@ -1,12 +1,12 @@
 <script lang="ts">
 	import { inject } from '@vercel/analytics';
 	import '../app.pcss';
-	import NavItem from '$lib/components/+NavItem.svelte';
+	import NavItem from '$lib/components/NavItem.svelte';
 
 	inject();
 </script>
 
-<main class="flex h-screen w-screen flex-col font-poppins">
+<main class="flex h-screen w-screen flex-col overflow-hidden font-poppins">
 	<div class="flex h-full w-full flex-wrap gap-4 overflow-y-auto p-4">
 		<slot />
 	</div>
