@@ -1,8 +1,10 @@
 <script lang="ts">
+	import { injectSpeedInsights } from '@vercel/speed-insights/sveltekit';
 	import { inject } from '@vercel/analytics';
 	import '../app.pcss';
 	import NavItem from '$lib/components/NavItem.svelte';
 
+	injectSpeedInsights();
 	inject();
 </script>
 
