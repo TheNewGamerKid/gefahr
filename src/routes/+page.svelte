@@ -81,9 +81,9 @@
 				More
 			</a>
 		</header>
-		<div class="grid w-full grid-cols-2 gap-3 rounded-b-sm bg-base-100 p-2">
+		<div class="flex w-full gap-3 rounded-b-sm bg-base-100 p-2">
 			<a
-				class="flex h-16 w-full max-w-52 items-center rounded-r-sm bg-neutral"
+				class="flex h-16 w-1/2 max-w-52 items-center rounded-r-sm bg-neutral"
 				href="/groups/uuid/join"
 			>
 				<div class="flex h-16 w-16 shrink-0 items-center justify-center rounded-sm">
@@ -108,9 +108,9 @@
 				More
 			</a>
 		</header>
-		<div class="grid w-full grid-cols-2 gap-3 rounded-b-sm bg-base-100 p-2">
+		<div class="flex w-full gap-3 rounded-b-sm bg-base-100 p-2">
 			<a
-				class="flex h-16 w-full max-w-52 items-center rounded-r-sm bg-neutral"
+				class="flex h-16 w-1/2 max-w-52 items-center rounded-r-sm bg-neutral"
 				href="/game/join/uuid"
 			>
 				<div class="flex h-16 w-16 shrink-0 items-center justify-center rounded-sm">
@@ -135,9 +135,9 @@
 				More
 			</a>
 		</header>
-		<div class="grid w-full grid-cols-2 gap-3 rounded-b-sm bg-base-100 p-2">
+		<div class="flex w-full gap-3 rounded-b-sm bg-base-100 p-2">
 			<a
-				class="flex h-16 w-full max-w-52 items-center rounded-r-sm bg-neutral"
+				class="flex h-16 w-1/2 max-w-52 items-center rounded-r-sm bg-neutral"
 				href="/game/join/uuid"
 			>
 				<div class="flex h-16 w-16 shrink-0 items-center justify-center rounded-sm">
