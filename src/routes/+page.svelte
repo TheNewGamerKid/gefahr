@@ -57,10 +57,7 @@
 			>
 				<span class="max-w-12 truncate">JJ</span>
 			</a>
-			<a
-				class="flex h-16 w-16 items-center justify-center rounded-sm bg-rose-900"
-				href="/accounts/user/uuid"
-			>
+			<a class="flex h-16 w-16 items-center justify-center rounded-sm" href="/accounts/user/uuid">
 				<img class="aspect-square h-full rounded-l-sm object-cover" src={maryJane} alt="PP" />
 			</a>
 		</div>
@@ -82,15 +79,15 @@
 			</a>
 		</header>
 		<div class="flex w-full gap-3 rounded-b-sm bg-base-100 p-2">
-			<div class="flex h-16 w-1/2 max-w-52 items-center rounded-r-sm bg-neutral">
+			<div class="flex h-16 w-1/2 min-w-52 max-w-64 items-center rounded-r-sm bg-neutral">
 				<!--
 				href="/groups/uuid/join"
 				-->
-				<div class="flex h-16 w-16 shrink-0 items-center justify-center rounded-sm">
+				<div class="flex aspect-square h-full shrink-0 items-center justify-center rounded-sm">
 					<img src={dailyBugle} alt="DB" class="aspect-square h-full rounded-l-sm object-cover" />
 				</div>
-				<div class="px-2">
-					<h3 class="text-sm text-primary">Daily Bugle</h3>
+				<div class="w-[calc(100%-4rem)] px-2">
+					<h3 class="truncate text-sm text-primary">Daily Bugle</h3>
 					<div class="flex flex-wrap gap-1 text-xs text-secondary underline">
 						<a href="/tags/search/?query=spiderman">#spiderman</a>
 						<a href="/tags/search/?query=news">#news</a>
@@ -109,9 +106,9 @@
 			</a>
 		</header>
 		<div class="flex w-full gap-3 rounded-b-sm bg-base-100 p-2">
-			<div class="flex h-16 w-1/2 max-w-52 items-center rounded-r-sm bg-neutral">
+			<div class="flex h-16 w-1/2 min-w-52 max-w-64 items-center rounded-r-sm bg-neutral">
 				<!-- href="/game/join/uuid" -->
-				<div class="flex h-16 w-16 shrink-0 items-center justify-center rounded-sm">
+				<div class="flex aspect-square h-full shrink-0 items-center justify-center rounded-sm">
 					<img src={spiderVerse} alt="SV" class="aspect-square h-full rounded-l-sm object-cover" />
 				</div>
 				<div class="px-2">
@@ -134,16 +131,16 @@
 			</a>
 		</header>
 		<div class="flex w-full gap-3 rounded-b-sm bg-base-100 p-2">
-			<div class="flex h-16 w-1/2 max-w-52 items-center rounded-r-sm bg-neutral">
+			<div class="flex h-16 w-1/2 min-w-52 max-w-64 items-center rounded-r-sm bg-neutral">
 				<!-- href="/game/join/uuid" -->
-				<div class="flex h-16 w-16 shrink-0 items-center justify-center rounded-sm">
+				<div class="flex aspect-square w-16 shrink-0 items-center justify-center rounded-sm">
 					<img
 						class="aspect-square h-full rounded-l-sm object-cover"
 						src={spidermanComic}
 						alt="SC"
 					/>
 				</div>
-				<div class="w-32 px-2">
+				<div class="w-[calc(100%-4rem)] px-2">
 					<h3 class="truncate text-sm text-primary">Spiderman Comics</h3>
 					<div class="flex flex-wrap gap-1 text-xs text-secondary underline">
 						<a href="/tags/search/?query=spiderman">#spiderman</a>
@@ -164,12 +161,12 @@
 	</a>
 	<div>
 		<h2 class="text-base font-semibold tracking-tight text-yellow-400">Play like a pro!</h2>
-		<p class="text-sm">
-			Show your friends who's boss and earn <strong class="font-semibold text-primary"
-				>double daily rewards</strong
+		<p class="text-xs sm:text-sm">
+			Show your friends who's boss and earn <strong
+				class="font-semibold tracking-tight text-primary">double daily rewards</strong
 			>
 			plus so much more! Don't just play trivia, master it! Upgrade to
-			<strong class="font-semibold text-yellow-400">Premium</strong> today!
+			<strong class="font-semibold tracking-tight text-yellow-400">Premium</strong> today!
 		</p>
 	</div>
 </section>
